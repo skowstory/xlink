@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
@@ -7,6 +6,7 @@
     <title>SEKAI NO OWARI ARENA TOUR 2024「深海」セットリスト</title>
     <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
     <style>
+        /* 全体スタイル */
         body {
             background-image: url('https://www.sekainoowari-tour.jp/shinkai/images/mainV.png');
             background-size: cover;
@@ -20,8 +20,10 @@
             height: 100vh;
             overflow: hidden;
             position: relative;
-            font-weight: bold; /* 文字を太く */
+            font-weight: bold;
         }
+
+        /* 背景オーバーレイ */
         body::before {
             content: '';
             position: absolute;
@@ -32,13 +34,15 @@
             background: rgba(0, 0, 0, 0.7);
             z-index: 1;
         }
+
+        /* コンテンツ容器 */
         .container {
             position: relative;
             z-index: 2;
             background: rgba(0, 0, 0, 0.7);
-            padding: 30px; /* パディングを大きく */
+            padding: 30px;
             border-radius: 10px;
-            width: 90%; /* 幅を広く */
+            width: 90%;
             max-height: 90%;
             overflow-y: auto;
             box-shadow: 0 0 15px rgba(0, 0, 0, 0.7);
@@ -46,78 +50,96 @@
             flex-direction: column;
             align-items: center;
         }
+
+        /* タイトル */
         h1 {
             text-align: center;
-            margin-bottom: 30px; /* マージンを大きく */
-            font-size: 2em; /* タイトルの文字サイズを大きく */
-            font-weight: bold; /* 文字を太く */
+            margin-bottom: 30px;
+            font-size: 2.5em;
+            font-weight: bold;
         }
+
+        /* セットリスト容器 */
         .setlist-container {
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-evenly; /* リスト間のスペースを均等にする */
+            justify-content: space-evenly;
             width: 100%;
         }
+
+        /* セットリスト */
         ul {
             list-style-type: none;
-            padding: 0 30px; /* 左右のパディングを大きく */
+            padding: 0 30px;
             margin: 0;
             width: 45%;
         }
+
         li {
-            margin: 20px 0; /* マージンを大きく */
-            font-size: 1.5em; /* フォントサイズを大きく */
-            font-weight: bold; /* 文字を太く */
+            margin: 20px 0;
+            font-size: 1.3em;
+            font-weight: bold;
         }
+
+        /* MC */
         .mc {
             color: #ffcc00;
-            font-weight: bold; /* 文字を太く */
+            font-weight: bold;
         }
+
+        /* アンコール */
         .encore {
             color: #ff6666;
-            font-weight: bold; /* 文字を太く */
+            font-weight: bold;
         }
+
+        /* 小画面での調整 */
         @media (max-width: 768px) {
             ul {
                 width: 100%;
-                padding-left: 40px; /* 小さい画面でのパディング調整 */
+                padding-left: 40px;
             }
         }
     </style>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@SKOW_STORY" />
+    <meta property="og:title" content="深海セットリスト" />
+    <meta property="og:description" content="SEKAI NO OWARI ARENA TOUR 2024「深海」" />
+    <meta property="og:image" content="https://u.cubeupload.com/SKOW_STORY/c556c3.png" />
 </head>
 <body>
     <div class="container">
         <h1>SEKAI NO OWARI ARENA TOUR 2024「深海」</h1>
         <div class="setlist-container">
             <ul>
-                <li>1. マーメイドラプソディー</li>
-                <li>2. Death Disco</li>
-                <li>3. スノーマジックファンタジー</li>
-                <li>4. 眠り姫 (ブルプラアレンジ)</li>
+                <li>1. <strong>マーメイドラプソディー</strong></li>
+                <li>2. <strong>Death Disco</strong></li>
+                <li>3. <strong>スノーマジックファンタジー</strong></li>
+                <li>4. <strong>眠り姫 (ブルプラアレンジ)</strong></li>
                 <li class="mc">MC (Nakajin)</li>
-                <li>5. Fight Music</li>
-                <li>6. サザンカ</li>
-                <li>7. 深海魚</li>
-                <li>8. Hey Ho (イントロアレンジ)</li>
-                <li>9. Dragon Night</li>
+                <li>5. <strong>Fight Music</strong></li>
+                <li>6. <strong>サザンカ</strong></li>
+                <li>7. <strong>深海魚</strong></li>
+                <li>8. <strong>Hey Ho (イントロアレンジ)</strong></li>
+                <li>9. <strong>Dragon Night</strong></li>
                 <li class="mc">MC (Saori)</li>
-                <li>10. タイムマシン</li>
-                <li>11. Love the warz -rearranged- (イントロアレンジ)</li>
+                <li>10. <strong>タイムマシン</strong></li>
+                <li>11. <strong>Love the warz -rearranged- (イントロアレンジ)</strong></li>
             </ul>
             <ul>
-                <li>12. Goodbye (正夢)</li>
-                <li>13. Monsoon Night</li>
+                <li>12. <strong>Goodbye (正夢)</strong></li>
+                <li>13. <strong>Monsoon Night</strong></li>
                 <li class="mc">MC (DJ LOVE)</li>
-                <li>14. RPG</li>
-                <li>15. Dropout (スターゲイザーへの繋ぎ)</li>
-                <li>16. スターゲイザー</li>
+                <li>14. <strong>RPG</strong></li>
+                <li>15. <strong>Dropout (スターゲイザーへの繋ぎ)</strong></li>
+                <li>16. <strong>スターゲイザー</strong></li>
                 <li class="mc">MC (Fukase)</li>
-                <li>17. 最高到達点</li>
-                <li>18. Habit (間奏DJスクラッチ & アウトロアレンジ)</li>
+                <li>17. <strong>最高到達点</strong></li>
+                <li>18. <strong>Habit (間奏DJスクラッチ & アウトロアレンジ)</strong></li>
                 <li class="encore">(アンコール)</li>
-                <li>19. スターライトパレード</li>
+                <li>19. <strong>スターライトパレード</strong></li>
                 <li class="mc">MC</li>
-                <li>20. インスタントラジオ (ジャズアレンジ)</li>
+                <li>20. <strong>インスタントラジオ (ジャズアレンジ)</strong></li>
             </ul>
         </div>
     </div>
